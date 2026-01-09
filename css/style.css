@@ -412,7 +412,7 @@ button,
 input,
 select,
 textarea {
-  font-family: 'PT Serif', serif;
+  font-family: 'Roboto Condensed', sans serif;
 }
 code,
 pre {
@@ -1064,13 +1064,13 @@ a.has-text-grey-lightest:focus {
   font-weight: 700 !important;
 }
 .is-family-primary {
-  font-family: 'PT Serif', serif !important;
+  font-family: 'Roboto Condensed', sans serif !important;
 }
 .is-family-secondary {
-  font-family: 'Ubuntu', 'Roboto', 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: 'Roboto Condensed', sans serif !important;
 }
 .is-family-sans-serif {
-  font-family: 'Ubuntu', 'Roboto', 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: 'Roboto Condensed', sans serif !important;
 }
 .is-family-monospace {
   font-family: monospace !important;
@@ -11609,7 +11609,7 @@ figure.highlight.foldable div.level-left {
 .cc-window,
 .cc-revoke {
   font-size: 1.1rem !important;
-  font-family: 'Ubuntu', 'Roboto', 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: 'Roboto Condensed', sans serif !important;
 }
 .cc-window {
   color: #4a4a4a !important;
@@ -11694,14 +11694,14 @@ h3,
 h4,
 h5,
 h6,
-.navbar,
-.navbar-item,
-.navbar-link {
+.navbar {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   font-style: normal;
 }
-.condensed-font-regular {
+.condensed-font-regular,
+.navbar-item,
+.navbar-link {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -11733,10 +11733,10 @@ h6 {
   color: #4a4a4a;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
 }
 .navbar-logo img {
-  max-height: 3.5rem !important;
+  max-height: 2.25em;
 }
 .content p {
   font-family: 'Roboto Condensed', sans-serif;
