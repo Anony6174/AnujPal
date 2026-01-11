@@ -11687,30 +11687,38 @@ figure.highlight.foldable div.level-left {
   }
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
-.condensed-font-bold,
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap");
+.condensed-font-bold {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.condensed-font-regular {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.barlow-condensed-medium,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-.navbar {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.condensed-font-regular,
+.navbar,
 .navbar-item,
-.navbar-link {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
+.navbar-link,
+.widget .card-content .menu-label {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
 body {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.6;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.5;
   color: #4a4a4a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11723,6 +11731,7 @@ h4,
 h5,
 h6 {
   color: #363636;
+  text-rendering: optimizeLegibility;
 }
 .navbar {
   box-shadow: 0 1px 20px rgba(0,0,0,0.05);
@@ -11739,9 +11748,9 @@ h6 {
   max-height: 2.25em;
 }
 .content p {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.1em;
-  line-height: 1.6;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
   color: #4a4a4a;
 }
 .content blockquote {
@@ -11749,13 +11758,12 @@ h6 {
   border-left: 5px solid #dbdbdb;
   padding: 1.25em 1.5em;
   color: #4a4a4a;
+  font-size: 1em;
+  line-height: 1.5;
 }
 .widget .card-content .menu-label {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
   color: #7a7a7a;
 }
 body.night-mode {

@@ -6,7 +6,7 @@
   <link href="https://anony6174.github.io/AnujPal/atom.xml" rel="self"/>
   
   <link href="https://anony6174.github.io/AnujPal/"/>
-  <updated>2026-01-08T12:12:27.013Z</updated>
+  <updated>2026-01-11T06:28:28.778Z</updated>
   <id>https://anony6174.github.io/AnujPal/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>History of the Monte Carlo Method</title>
+    <link href="https://anony6174.github.io/AnujPal/2026/01/10/monte_carlo_history/"/>
+    <id>https://anony6174.github.io/AnujPal/2026/01/10/monte_carlo_history/</id>
+    <published>2026-01-10T16:21:46.000Z</published>
+    <updated>2026-01-11T06:28:28.778Z</updated>
+    
+    <content type="html"><![CDATA[<!-- # History of the Monte Carlo Method --><p>Recently, I was reading a book called “<em>The Man from the Future</em>”, a biography of one of the greatest minds of all time, Sir <strong>John von Neumann</strong>. It is beautifully written, and each chapter of the book introduces a completely new field of exploration, whether it be <strong>game theory</strong>, <strong>Project Y</strong> (also known as the Manhattan Project), or <strong>set theory</strong>. </p><span id="more"></span><p>Today I want to share some of those learning with you, it will not be much technical, but I am sure it will be wind blowing. It was the time of the Second World War, and scientists from all over the place were chasing down the dream to build the first atomic bomb in human history. Due to the recent discovery of nuclear fission by Lisa Mitner and Otto Hahn, there was a possibility of utilizing the energy of atoms to build a bomb as powerful as destroying a complete city. Under the supervision of General Groves, the Manhattan Project was initiated to conduct experiments towards realizing this bomb and ending the ongoing war. The project is being headed by “<strong>Robert J Oppenheimer</strong>”, one of the brilliant minds of the USA at that time. It is popular among the scientists that Oppenheimer can talk to anybody about any topic they want to discuss except sports. He had also taught himself Sanskrit and learned thousands of shlokas from it. The Manhattan Project housed about 2100 brilliant scientists and mathematicians from all over the world. Some were Nobel laureates, too. John Von Neumann and his friends were among them. During that time, it was very difficult to calculate the solution of the “neutron diffusion problem” as it involved so many constraints and computations. </p><!-- ![*stainslaw Ulam*](/img/monte_carlo_history/image.png)*stainslaw Ulam* --><p><img src="/AnujPal/img/monte_carlo_history/image%201.png" alt="John Von Neumann, Richard Feynman, and Ulam"></p><p>The problem was in <strong>calculating the critical mass needed for a self-sustaining chain reaction and understanding how neutrons behaved (diffused) in fissile materials like uranium-235 and plutonium-239</strong>.</p><p>At the same time, due to a brain illness called Encephalitis, Stanislaw Ulam had to get admitted himself for some weeks to improve his health. To pass his time, he used to play “solitaire”. During one such game, a remote thought occurred to him; he thought, “What is the probability of getting a sorted solitaire deck” at random. He thought for a bit to find a direct solution to this problem, but noticing the difficulty of finding the direct answer, he thought to find the approximate answer by arranging and shuffling the cards hundreds of times and counting if it was sorted or not. This method which seems very naive and obvious got stuck in his head. After some years, when the war ended and his health got better, he went back to Princeton to continue his research. Even after developing two nuclear bombs, there was still no easy solution to the “Neutron diffusion problem”, and it used to take months to find a good solution. One day, Stanislaw Ulam was scratching his head, solving the problem, then suddenly the technique that he used to solve the solitaire deck counting problem struck his head. And he immediately went to John Von Neumann to discuss it. Being a mathematical wizard, John Von Neumann quickly saw the implications of the method. He mixes the method with the Markov chain to approximate the probability distribution for the neutron diffusion problem. It worked perfectly for the situation. The mixing of Markov chains with Monte Carlo is popularly known as the <strong>Markov chain Monte Carlo method (MCMC)</strong> today, and it is widely used. </p><p>But how was the Monte Carlo name given to the technique? It was Stainslaw himself who named this technique “Monte Carlo” after a famous casino in <em>Monaco</em> called “Monte Carlo”, where his uncle used to visit frequently. Now Monte Carlo Method is used in almost every field. Whenever finding the direct answer seems daunting, Monte Carlo is here to rescue us; it finds the best approximate solution to the problem often very useful for most practical problems.</p>]]></content>
+    
+    
+    <summary type="html">&lt;!-- # History of the Monte Carlo Method --&gt;
+
+&lt;p&gt;Recently, I was reading a book called “&lt;em&gt;The Man from the Future&lt;/em&gt;”, a biography of one of the greatest minds of all time, Sir &lt;strong&gt;John von Neumann&lt;/strong&gt;. It is beautifully written, and each chapter of the book introduces a completely new field of exploration, whether it be &lt;strong&gt;game theory&lt;/strong&gt;, &lt;strong&gt;Project Y&lt;/strong&gt; (also known as the Manhattan Project), or &lt;strong&gt;set theory&lt;/strong&gt;. &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="History" scheme="https://anony6174.github.io/AnujPal/categories/History/"/>
+    
+    
+    <category term="History" scheme="https://anony6174.github.io/AnujPal/tags/History/"/>
+    
+    <category term="Monte Carlo" scheme="https://anony6174.github.io/AnujPal/tags/Monte-Carlo/"/>
+    
+    <category term="Markov Chain" scheme="https://anony6174.github.io/AnujPal/tags/Markov-Chain/"/>
+    
+  </entry>
   
   <entry>
     <title>UIUCTF 2025 writeup (pwn/&quot;do re mi&quot;)</title>
